@@ -1,0 +1,32 @@
+.skills-container {
+  margin: 30px auto 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 5px;
+  color: rgba(151, 71, 255, 1);
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+  overflow: hidden;
+  border: 1px solid rgba(151, 71, 255, 1);
+  height: 15px;
+}
+
+.progress {
+  height: 100%;
+  background-color: rgba(238, 222, 207, 1);
+  transition: width 1s ease-in-out;
+}
+@media (max-width: 600px) {
+  .skills-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

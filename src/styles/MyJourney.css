@@ -1,0 +1,35 @@
+.my-journey-holder {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.flex-item {
+  flex: 1;
+}
+span {
+  font-size: 1.2rem;
+  display: inline;
+  color: rgba(151, 71, 255, 1);
+}
+.flex-item p {
+  margin: 0px;
+}
+h5 {
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+h4 {
+  margin-top: 0px;
+  font-size: 1.5rem;
+}
+@media (max-width: 600px) {
+  .my-journey-holder {
+    flex-direction: column;
+  }
+  span {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}

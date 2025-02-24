@@ -1,0 +1,64 @@
+.navList ul {
+  display: flex;
+  list-style: none;
+  width: 420px;
+  justify-content: space-between;
+  background-color: rgba(123, 123, 123, 0.15);
+  padding: 10px 15px;
+  margin: 0;
+  border: 1px solid rgba(151, 71, 255, 1);
+}
+.navList ul:hover {
+  background-color: rgba(123, 123, 123, 0.3);
+}
+.navList ul a {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-family: "Anuphan";
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(238, 222, 207, 1);
+  cursor: pointer;
+}
+.navList ul a:hover {
+  color: rgba(151, 71, 255, 1);
+}
+.nav {
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.contact-btn {
+  background-color: rgba(238, 222, 207, 1);
+  border-radius: 1px;
+}
+.navList ul .contact-btn a {
+  color: rgba(151, 71, 255, 1);
+  padding: 0px 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navList ul .contact-btn a:hover {
+  color: rgba(238, 222, 207, 1);
+}
+.contact-btn:hover {
+  background-color: rgba(151, 71, 255, 1);
+}
+@media (max-width: 500px) {
+  .navList ul {
+    width: 350px;
+    padding: 7px 10px;
+    align-items: center;
+  }
+  .navList ul a {
+    font-size: 0.5rem;
+    display: block;
+  }
+  .navList ul .contact-btn a {
+    padding: 3px 5px;
+  }
+}

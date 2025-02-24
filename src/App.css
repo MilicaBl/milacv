@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(34, 34, 34, 1);
+  color: rgba(238, 222, 207, 1);
+  position: relative;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1555px;
+  align-self: center;
+  width: 100%;
+}
+h3,
+h4,
+p,
+h5 {
+  font-family: "Anuphan", serif;
+  font-style: normal;
+  font-weight: 300;
+}
+h3,
+h4 {
+  color: rgba(151, 71, 255, 1);
+}
+h3 {
+  font-size: 2rem;
+  margin: 15px 0px;
+}
+p,
+h5 {
+  font-size: 1.2rem;
+}
+h1,
+h2,
+a {
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+  padding: 0px 100px 50px;
+  max-width: 1555px;
+}
+#about {
+  width: 80%;
+  margin-bottom: 35px;
+}
+@media (max-width: 920px) {
+  main {
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  #about {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

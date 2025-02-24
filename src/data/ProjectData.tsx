@@ -1,0 +1,85 @@
+export const projects = [
+  {
+    id: "1",
+    title: "Rethinkfabry",
+    img: `${process.env.PUBLIC_URL}/images/mockup1.jpeg`,
+    description:
+      "A multisite with data managed in WordPress and a frontend built with Next.js. I developed this project during my second LIA together with colleagues.",
+    gallery: [`${process.env.PUBLIC_URL}/images/fabrycode.png`, `${process.env.PUBLIC_URL}/images/fabrymobile.png`],
+    video: `${process.env.PUBLIC_URL}/videos/fabryvideo.mov`,
+    link: "https://rethinkfabry.se/",
+  },
+  {
+    id: "2",
+    title: "Uppfinnaren The Wood Atalier",
+    img: `${process.env.PUBLIC_URL}/images/mockup3.jpeg`,
+    description:
+      "This is a school project with a focus on learning MVC. It is a dynamic web application developed with ASP.NET Core MVC. The application is designed to showcase handcrafted furniture and wooden products, categorized into different product groups. Visitors can explore the products through various category pages and view details for each item. The application utilizes a class-based data structure (Category, Product) along with a repository pattern (ICategoryRepository, IProductRepository), making data management both flexible and scalable.",
+    keyFeatures: [
+      "View all products by navigating to the product page.",
+      "Click on a product to see more information.",
+      "Display products based on their category or material.",
+    ],
+    technologies: [
+      "Backend: ASP.NET Core MVC",
+      "Frontend: HTML, CSS, Razor Views",
+      "Database: EF InMemory database",
+      "Images: AI-generated",
+    ],
+    gallery: [`${process.env.PUBLIC_URL}/images/wacode.png`, `${process.env.PUBLIC_URL}/images/waipad.pmg`],
+    video: `${process.env.PUBLIC_URL}/videos/wavideo.mp4`,
+    link: "https://github.com/MilicaBl/uppfinnaren-1-0-MilicaBl",
+  },
+  {
+    id: "3",
+    title: "Gammalt Glimmer - Auction App",
+    img: `${process.env.PUBLIC_URL}/images/mockup2.jpeg`,
+    description:
+      "Auction App is a web application built with ASP.NET Core, enabling users to create, view, edit, and delete auction items, as well as manage user accounts and item categorization. Role-Based Functionality : Visitors without accounts can only view available auction items. Registered users (buyers) can create new items, view their created items on a separate page, and edit or delete them. Auction administrators (admins) have access to all available items, can mark items as sold, and view sold items on a dedicated page. Admins can also revert items to 'unsold' status.",
+    keyFeatures: [
+      "View auction items: Filter items based on categories.",
+      "User registration: Create an account to access buyer-specific features.",
+      "Create auction items: Buyers can create and save new auction items.",
+      "Unique IDs: Automatically generated for each new item.",
+      "Image upload: Option to upload an image for an item (optional).",
+      "Edit and delete items: Buyers can update or remove their saved items.",
+      "User management: Associate auction items with user accounts via email.",
+      "My Items: Displays a list of items created by the logged-in buyer.",
+      "Mark as sold/unsold: Admins can mark items as sold or revert them to unsold.",
+      "Sale price validation: The sale price cannot be lower than the purchase price.",
+      "My Sold Items: Admins can view and manage a list of items they have marked as sold.",
+    ],
+    technologies: [
+      "Backend: ASP.NET Core MVC",
+      "Frontend: HTML, CSS, Razor Views",
+      "Database: EF InMemory Database",
+      "Testing: xUnit for writing and running unit tests",
+      "Authentication: ASP.NET Identity for user login and registration",
+    ],
+    gallery: [`${process.env.PUBLIC_URL}/images/ggadminview.png`, `${process.env.PUBLIC_URL}/images/gguserview.png`],
+    video: `${process.env.PUBLIC_URL}/videos/ggcodevideo.mp4`,
+    link: "https://github.com/MilicaBl/auktioner-net-MilicaBl",
+  },
+  {
+    id: "4",
+    title: "Filmstudio",
+    img: `${process.env.PUBLIC_URL}/images/mockup4.jpeg`,
+    description:
+      "This school project is a web application for film clubs connected to the Swedish Federation of Film Studios (SFF), where film studios can rent films via an API and a client interface. The project includes both an API for managing films and film studios, as well as a frontend interface that is exclusively for film studios.",
+    keyFeatures: [
+      "Authentication and User Management: Users log in as either admin or film studio.",
+      "Role-Based Access: There are three types of users—authenticated admin, authenticated film studio, and unauthenticated users.",
+      "CRUD Functionality: Admin can create, read, and update films.",
+      "Film Rental: Film studios can rent films based on availability and cannot rent more than one copy of the same film at a time.",
+    ],
+    technologies: [
+      "Backend: ASP.NET Core Web API",
+      "Frontend: HTML, CSS, JavaScript",
+      "Database: EF InMemory database",
+      "AutoMapper: For mapping between objects",
+      "Authentication: ASP.NET Identity for user management and JWT (JSON Web Token) for authentication",
+    ],
+    gallery: [`${process.env.PUBLIC_URL}/images/filmstudio.png`, `${process.env.PUBLIC_URL}/images/filmstudiorest.png`],
+    link: "https://github.com/MilicaBl/Filmstudio",
+  },
+];

@@ -1,0 +1,12 @@
+.gif-signature{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.gif-signature p{
+    font-family: "Island Moments", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
