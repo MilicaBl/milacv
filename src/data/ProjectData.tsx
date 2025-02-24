@@ -2,17 +2,17 @@ export const projects = [
   {
     id: "1",
     title: "Rethinkfabry",
-    img: "/images/mockup1.jpeg",
+    img: `${process.env.PUBLIC_URL}/images/mockup1.jpeg`,
     description:
       "A multisite with data managed in WordPress and a frontend built with Next.js. I developed this project during my second LIA together with colleagues.",
-    gallery: ["/images/fabrycode.png", "/images/fabrymobile.png"],
-    video: "/videos/fabryvideo.mov",
+    gallery: [`${process.env.PUBLIC_URL}/images/fabrycode.png`, `${process.env.PUBLIC_URL}/images/fabrymobile.png`],
+    video: `${process.env.PUBLIC_URL}/videos/fabryvideo.mov`,
     link: "https://rethinkfabry.se/",
   },
   {
     id: "2",
     title: "Uppfinnaren The Wood Atalier",
-    img: "/images/mockup3.jpeg",
+    img: `${process.env.PUBLIC_URL}/images/mockup3.jpeg`,
     description:
       "This is a school project with a focus on learning MVC. It is a dynamic web application developed with ASP.NET Core MVC. The application is designed to showcase handcrafted furniture and wooden products, categorized into different product groups. Visitors can explore the products through various category pages and view details for each item. The application utilizes a class-based data structure (Category, Product) along with a repository pattern (ICategoryRepository, IProductRepository), making data management both flexible and scalable.",
     keyFeatures: [
@@ -26,14 +26,14 @@ export const projects = [
       "Database: EF InMemory database",
       "Images: AI-generated",
     ],
-    gallery: ["/images/wacode.png", "/images/waipad.png"],
-    video: "/videos/wavideo.mp4",
+    gallery: [`${process.env.PUBLIC_URL}/images/wacode.png`, `${process.env.PUBLIC_URL}/images/waipad.pmg`],
+    video: `${process.env.PUBLIC_URL}/videos/wavideo.mp4`,
     link: "https://github.com/MilicaBl/uppfinnaren-1-0-MilicaBl",
   },
   {
     id: "3",
     title: "Gammalt Glimmer - Auction App",
-    img: "/images/mockup2.jpeg",
+    img: `${process.env.PUBLIC_URL}/images/mockup2.jpeg`,
     description:
       "Auction App is a web application built with ASP.NET Core, enabling users to create, view, edit, and delete auction items, as well as manage user accounts and item categorization. Role-Based Functionality : Visitors without accounts can only view available auction items. Registered users (buyers) can create new items, view their created items on a separate page, and edit or delete them. Auction administrators (admins) have access to all available items, can mark items as sold, and view sold items on a dedicated page. Admins can also revert items to 'unsold' status.",
     keyFeatures: [
@@ -56,14 +56,14 @@ export const projects = [
       "Testing: xUnit for writing and running unit tests",
       "Authentication: ASP.NET Identity for user login and registration",
     ],
-    gallery: ["/images/ggadminview.png", "/images/gguserview.png"],
-    video: "/videos/ggcodevideo.mp4",
+    gallery: [`${process.env.PUBLIC_URL}/images/ggadminview.png`, `${process.env.PUBLIC_URL}/images/gguserview.png`],
+    video: `${process.env.PUBLIC_URL}/videos/ggcodevideo.mp4`,
     link: "https://github.com/MilicaBl/auktioner-net-MilicaBl",
   },
   {
     id: "4",
     title: "Filmstudio",
-    img: "/images/mockup4.jpeg",
+    img: `${process.env.PUBLIC_URL}/images/mockup4.jpeg`,
     description:
       "This school project is a web application for film clubs connected to the Swedish Federation of Film Studios (SFF), where film studios can rent films via an API and a client interface. The project includes both an API for managing films and film studios, as well as a frontend interface that is exclusively for film studios.",
     keyFeatures: [
@@ -79,7 +79,7 @@ export const projects = [
       "AutoMapper: For mapping between objects",
       "Authentication: ASP.NET Identity for user management and JWT (JSON Web Token) for authentication",
     ],
-    gallery: ["/images/filmstudio.png", "/images/filmstudiorest.png"],
+    gallery: [`${process.env.PUBLIC_URL}/images/filmstudio.png`, `${process.env.PUBLIC_URL}/images/filmstudiorest.png`],
     link: "https://github.com/MilicaBl/Filmstudio",
   },
 ];

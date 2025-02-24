@@ -9,10 +9,10 @@ interface Image {
   link: string;
 }
 const images: Image[] = [
-  { id: 1, src: "/images/mockup1.jpeg", alt: "Mockup 1", link: "/project/1" },
-  { id: 2, src: "/images/mockup3.jpeg", alt: "Mockup 2", link: "/project/2" },
-  { id: 3, src: "/images/mockup2.jpeg", alt: "Mockup 3", link: "/project/3" },
-  { id: 4, src: "/images/mockup4.jpeg", alt: "Mockup 4", link: "/project/4" },
+  { id: 1, src: `${process.env.PUBLIC_URL}/images/mockup1.jpeg`, alt: "Rethinkfabry project", link: "/project/1" },
+  { id: 2, src: `${process.env.PUBLIC_URL}/images/mockup2.jpeg`, alt:"Gammalt Glimmer - Auction App project", link: "/project/2" },
+  { id: 3, src: `${process.env.PUBLIC_URL}/images/mockup3.jpeg`, alt:"Uppfinnaren The Wood Atalier project", link: "/project/3" },
+  { id: 4, src: `${process.env.PUBLIC_URL}/images/mockup4.jpeg`, alt: "Filmstudio project", link: "/project/4" },
 ];
 const Projects: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
