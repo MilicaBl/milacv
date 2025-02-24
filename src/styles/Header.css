@@ -6,7 +6,7 @@ h2,
 header {
   position: relative;
   height: 100vh;
-  background-image: url("../../public/images/headerIMG.png");
+  background-image:  url("%PUBLIC_URL%/images/headerIMG.png");
   background-size: cover;
   background-position: center;
   justify-content: center;
