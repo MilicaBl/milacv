@@ -26,7 +26,7 @@ export const projects = [
       "Database: EF InMemory database",
       "Images: AI-generated",
     ],
-    gallery: [`${process.env.PUBLIC_URL}/images/wacode.png`, `${process.env.PUBLIC_URL}/images/waipad.pmg`],
+    gallery: [`${process.env.PUBLIC_URL}/images/wacode.png`, `${process.env.PUBLIC_URL}/images/waipad.png`],
     video: `${process.env.PUBLIC_URL}/videos/wavideo.mp4`,
     link: "https://github.com/MilicaBl/uppfinnaren-1-0-MilicaBl",
   },

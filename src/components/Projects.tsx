@@ -10,8 +10,8 @@ interface Image {
 }
 const images: Image[] = [
   { id: 1, src: `${process.env.PUBLIC_URL}/images/mockup1.jpeg`, alt: "Rethinkfabry project", link: "/project/1" },
-  { id: 2, src: `${process.env.PUBLIC_URL}/images/mockup2.jpeg`, alt:"Gammalt Glimmer - Auction App project", link: "/project/2" },
-  { id: 3, src: `${process.env.PUBLIC_URL}/images/mockup3.jpeg`, alt:"Uppfinnaren The Wood Atalier project", link: "/project/3" },
+  { id: 2, src: `${process.env.PUBLIC_URL}/images/mockup3.jpeg`, alt:"Gammalt Glimmer - Auction App project", link: "/project/2" },
+  { id: 3, src: `${process.env.PUBLIC_URL}/images/mockup2.jpeg`, alt:"Uppfinnaren The Wood Atalier project", link: "/project/3" },
   { id: 4, src: `${process.env.PUBLIC_URL}/images/mockup4.jpeg`, alt: "Filmstudio project", link: "/project/4" },
 ];
 const Projects: React.FC = () => {

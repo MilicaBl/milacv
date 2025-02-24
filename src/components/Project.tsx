@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { projects } from "../../src/data/ProjectData";
 import "../styles/Project.css";
 import React, { useState, useEffect } from "react";
@@ -27,9 +27,9 @@ const Project = () => {
 
   return (
     <div className="project-container">
-      <a href="/" className="back-btn">
+      <Link to="/" className="back-btn">
         <span className="material-symbols-outlined">arrow_back</span>
-      </a>
+      </Link>
       <h3>{project.title}</h3>
       <img src={project.img} alt={project.title} className="main-image" />
       <p>{project.description}</p>
