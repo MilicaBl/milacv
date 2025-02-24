@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/milacv/static/css/main.b1fe66d1.css",
+    "main.js": "/milacv/static/js/main.a3bb7bdf.js",
+    "static/media/headerIMG.png": "/milacv/static/media/headerIMG.d44c356b8bcff71013f9.png",
+    "index.html": "/milacv/index.html",
+    "main.b1fe66d1.css.map": "/milacv/static/css/main.b1fe66d1.css.map",
+    "main.a3bb7bdf.js.map": "/milacv/static/js/main.a3bb7bdf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1fe66d1.css",
+    "static/js/main.a3bb7bdf.js"
+  ]
+}
